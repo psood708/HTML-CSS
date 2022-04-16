@@ -1,0 +1,27 @@
+header h1{color:brown;
+     text-align: center;}
+/* this is an example of descendant selectors */
+
+
+ p{color:green;
+   text-align: center;}    
+/* this is an example of type selector  */
+
+.highlight{
+    background-color: azure;
+} 
+/* this is example of class selector */
+
+
+
+
+
+/* css selectors 
+we have three types of selectors
+1)Type Selectors
+--> for example p{color: ;}
+2)Descendant selectors
+-->for example if we want to use inside a header or some element
+
+3)Class selectors 
+descendant selectors are more specific than type selectors*/

@@ -1,0 +1,150 @@
+html{
+    background-color: rgb(122, 146, 67);
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 87%;
+}
+header{
+    padding-top: 30px;
+}
+header h1{
+    margin:0;
+    color: rgb(111, 139, 55);
+    font-weight: bold;
+}
+header p {
+    margin:0;
+    color: rgb(111, 139, 55);
+}
+.site-nav{
+    margin-top: 20px;
+
+}
+.site-nav a{
+    display:block;
+    text-decoration: none;
+    color:rgb(111, 139, 55) ;
+    padding:10px 20px;
+    border: 3px solid rgb(143, 173, 81);
+    border-bottom: none;
+}
+.site-nav a:hover{
+    background-color:rgb(164, 185, 122) ;
+}
+.site-nav ul{
+    margin:0;
+    padding:0;
+
+}
+.image{
+    width: 575px;
+    height:500px;
+    border:15px bold black;
+}
+/* ******New things in this lesson begins****** */
+img {
+    max-width:100%;
+    height:auto;
+}
+/*this concept of position is very important
+rgba is something that can give transparent colors*/
+.img-banner{
+    position:relative;
+}
+.img-banner{
+    display: block;
+}
+.banner-desc{
+    position:absolute;
+    /* here position absolute removes the content out of the page and then 
+    we can place the content with relation of x-y coordinates.
+    a(alpha) values only go from 0-1 0 being most transparent */
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    bottom:0;
+    left:0;
+    padding:15px 20px;
+
+
+}
+/*WE will do here site navigation*/
+.site-nav li{
+    list-style-type:none;
+    float:left;
+    margin-right: 5px;
+}
+
+/* ******New things in this lesson ends***** */
+.container{
+    max-width: 950px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border: 10px bold olivedrab;
+}
+.content-area{
+    border-top: solid rgb(171, 185, 142);
+    border-bottom:  solid rgb(171, 185, 142);
+     
+}
+.main-area{
+    width: 66%;
+    float:left;
+    margin-left:auto;
+    margin-right: auto;
+    padding-right: 40px;
+    box-sizing: border-box;
+    /* the box-sizing command adjusts the given space and 
+    then gives padding accordingly */
+
+}
+.sidebar{
+    
+    width:34%;
+    float:left;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:  rgb(171, 185, 142);
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    here we can use an alternate of padding in this
+    we right the same code for padding but now we go in clockwise 
+    direction */
+    font-size: 85%;
+    padding: 20px 30px 20px 30px;
+    /* this is called shorthands of CSS */
+    box-sizing: border-box;
+}
+footer{
+    color:  rgb(171, 185, 142);
+    text-align: center;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing:border-box;
+
+}
+/* .fix{
+    clear:both;
+} */
+
+
+/* clearfix method:--- */
+.group:before,
+.group:after{
+    content:"";
+    display:table;
+}
+
+.group:after{
+    clear:both;
+}
+.group{
+    zoom:1;
+}
