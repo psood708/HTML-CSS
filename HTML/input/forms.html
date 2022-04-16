@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>HTML Forms</title>
+    </head>
+
+    <body>
+        <form>
+            <label for="Firstname">First name: </label>
+            <input id = "Firstname" type = "text" name = "Firstname">
+            <!-- the for attribute here is done such that we can get 
+            the respone when we click the label and the cursor automatically
+            shows the entry field
+               First method is more suitable -->
+            
+            <!-- there is also another method that we can do to get the response
+            we can just put the input field inside the label 
+            as done below -->
+            <label>Last Name: 
+                <input type = "text" name = "lastname">
+            </label>
+
+            <input type = "submit" value="SAVE">
+           <!-- we have added name attribute in order to get the data accessible for 
+           other programming languages to work upon -->
+        </form>
+
+    </body>
+</html>

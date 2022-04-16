@@ -1,0 +1,19 @@
+.box-a{
+    background-color: antiquewhite;
+    padding: 40px;
+    border: 5px solid red;
+    margin-bottom: 50px;
+    width :240px;
+    height:100px;
+    /* box-sizing:border-box; */
+}
+
+/* we can make spacess with the help of margins */
+.box-b{
+    margin-top: 10px;
+    background-color: orange;
+    padding: 40px ;
+    border: 5px solid turquoise;
+    width:240px;
+    height:100px;
+}
